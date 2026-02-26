@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammad Nazmul | Cybersecurity Professional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================
+       NAVIGATION
+  ============================= -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <span class="nav-brand">MN</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-cta" onclick="scrollToSection('contact')">Hire Me</button>
+    </div>
+  </nav>
+
+  <!-- ============================
+       HERO
+  ============================= -->
+  <section id="hero">
+    <div class="hero-content fade-in">
+      <p class="hero-eyebrow">CLEARED. CREDENTIALED. MISSION-READY.</p>
+      <h1 class="hero-name">Mohammad Nazmul</h1>
+      <p class="hero-title">Cybersecurity Professional &nbsp;&middot;&nbsp; U.S. Army Veteran &nbsp;&middot;&nbsp; Graduate Researcher</p>
+      <p class="hero-bio">
+        U.S. Army Sergeant (E5) transitioning into federal and private sector cybersecurity. CompTIA Security+ certified with hands-on experience in ethical hacking, malware analysis, and network security.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn-primary" onclick="scrollToSection('projects')">View My Work</button>
+        <button class="btn-outline" onclick="scrollToSection('contact')">Contact Me</button>
+      </div>
+    </div>
+    <div class="hero-stats fade-in fade-in-delay">
+      <div class="stat-item">
+        <span class="stat-number">3</span>
+        <span class="stat-label">Degrees<br/><span class="stat-sub">BSBA · MBA · M.S. in Progress</span></span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number">Security+</span>
+        <span class="stat-label">CompTIA Certified</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       ABOUT
+  ============================= -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-label">01 / About</div>
+      <h2 class="section-heading">Background &amp; Expertise</h2>
+      <div class="about-grid">
+
+        <div class="about-text fade-in">
+          <p>
+            I am a U.S. Army NCO and cybersecurity graduate student at the University of Maryland Global Campus. My background spans operational military service, three academic degrees, and independent security research, a combination that few professionals bring to the table.
+          </p>
+          <p>
+            My work is driven by a single objective: bridging military operational experience with rigorous technical cyber defense. I build tools, reverse binaries, analyze malware, and document tradecraft. Not because it is required, but because it matters.
+          </p>
+          <p>
+            My long-term trajectory runs through federal cybersecurity into cyber law. I intend to serve as legal counsel on national-security and digital-warfare policy, bringing both the technical depth and legal precision that the field demands.
+          </p>
+        </div>
+
+        <div class="about-skills fade-in fade-in-delay">
+          <div class="skills-card">
+            <div class="skills-group">
+              <h4 class="skills-group-title">Technical Competencies</h4>
+              <div class="skill-tags">
+                <span class="tag">Ethical Hacking</span>
+                <span class="tag">Binary Analysis</span>
+                <span class="tag">Malware Analysis</span>
+                <span class="tag">Network Security</span>
+                <span class="tag">Networking</span>
+                <span class="tag">Python</span>
+                <span class="tag">C</span>
+                <span class="tag">C++</span>
+              </div>
+            </div>
+            <div class="skills-group">
+              <h4 class="skills-group-title">Platforms &amp; Labs</h4>
+              <div class="skill-tags">
+                <span class="tag tag-alt">Kali Linux</span>
+                <span class="tag tag-alt">GitHub · 0x57Origin</span>
+              </div>
+            </div>
+            <div class="skills-group">
+              <h4 class="skills-group-title">Languages</h4>
+              <div class="language-list">
+                <div class="lang-row">
+                  <span class="lang-name">English</span>
+                  <span class="lang-level">Professional</span>
+                </div>
+                <div class="lang-row">
+                  <span class="lang-name">Bengali</span>
+                  <span class="lang-level">Native</span>
+                </div>
+                <div class="lang-row">
+                  <span class="lang-name">Hindi</span>
+                  <span class="lang-level">Conversational</span>
+                </div>
+                <div class="lang-row">
+                  <span class="lang-name">Urdu</span>
+                  <span class="lang-level">Conversational</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       PROJECTS
+  ============================= -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-label">02 / Projects</div>
+      <h2 class="section-heading">Security Research &amp; Tools</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card fade-in">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <span class="project-lang-badge">C</span>
+              <a href="https://github.com/0x57Origin/Flag_Hunt" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="View Flag_Hunt on GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <h3 class="project-name">Flag_Hunt</h3>
+            <p class="project-desc">C binary challenges focused on XOR decoding, low-level logic analysis, and binary fundamentals. A hands-on approach to understanding how programs behave at the bit level.</p>
+            <div class="project-footer">
+              <a href="https://github.com/0x57Origin/Flag_Hunt" target="_blank" rel="noopener noreferrer" class="project-btn">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <span class="project-lang-badge">C</span>
+              <a href="https://github.com/0x57Origin/RE_VAULT" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="View RE_VAULT on GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <h3 class="project-name">RE_VAULT</h3>
+            <p class="project-desc">Personal security lab. C-based obfuscation experiments, malware analysis notes, and binary research. A living repository of tradecraft documented for operational reference.</p>
+            <div class="project-footer">
+              <a href="https://github.com/0x57Origin/RE_VAULT" target="_blank" rel="noopener noreferrer" class="project-btn">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-in">
+          <div class="project-card-inner">
+            <div class="project-header">
+              <span class="project-lang-badge">Markdown</span>
+              <a href="https://github.com/0x57Origin/PenTest-WriteUps" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="View PenTest-WriteUps on GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <h3 class="project-name">PenTest-WriteUps</h3>
+            <p class="project-desc">TryHackMe labs, CTF notes, and cybersecurity learning documentation. Structured write-ups that capture methodology, not just solutions.</p>
+            <div class="project-footer">
+              <a href="https://github.com/0x57Origin/PenTest-WriteUps" target="_blank" rel="noopener noreferrer" class="project-btn">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ============================
+       EDUCATION & CERTIFICATIONS
+  ============================= -->
+  <section id="education">
+    <div class="section-container">
+      <div class="section-label">03 / Credentials</div>
+      <h2 class="section-heading">Education &amp; Certifications</h2>
+
+      <div class="cred-grid">
+
+        <div class="cred-column fade-in">
+          <h3 class="cred-column-title">Certifications</h3>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-badge active">Certified</span>
+                <h4 class="timeline-title">CompTIA Security+</h4>
+                <p class="timeline-sub">Industry-standard validation of cybersecurity skills and knowledge.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-badge active">Certified</span>
+                <h4 class="timeline-title">Google Cybersecurity Certificate</h4>
+                <p class="timeline-sub">Foundations of security operations, detection, and response.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-badge active">Certified</span>
+                <h4 class="timeline-title">Google Project Management Certificate</h4>
+                <p class="timeline-sub">Agile and structured project management methodologies.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="cred-column fade-in fade-in-delay">
+          <h3 class="cred-column-title">Education</h3>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot timeline-dot-accent"></div>
+              <div class="timeline-content">
+                <span class="timeline-badge in-progress">In Progress</span>
+                <h4 class="timeline-title">M.S. Cybersecurity Technology</h4>
+                <p class="timeline-institution">University of Maryland Global Campus</p>
+                <p class="timeline-sub">Expected June 2026</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-badge active">Completed</span>
+                <h4 class="timeline-title">Master of Business Administration</h4>
+                <p class="timeline-institution">Liberty University</p>
+                <p class="timeline-sub">GPA: 3.69</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-badge active">Completed</span>
+                <h4 class="timeline-title">B.S. Business Administration</h4>
+                <p class="timeline-institution">Southern New Hampshire University</p>
+                <p class="timeline-sub">GPA: 3.5</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       CONTACT
+  ============================= -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-label">04 / Contact</div>
+      <h2 class="section-heading">Let's Connect</h2>
+
+      <div class="contact-wrapper fade-in">
+        <p class="contact-statement">
+          Open to federal and private sector cybersecurity roles, research collaborations, and defense contracting opportunities.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:0x57Origin@proton.me" class="contact-btn">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            0x57Origin@proton.me
+          </a>
+          <a href="https://www.linkedin.com/in/mohammad-nazmul-82012127b" target="_blank" rel="noopener noreferrer" class="contact-btn">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            in/mohammad-nazmul-82012127b
+          </a>
+          <a href="https://github.com/0x57Origin" target="_blank" rel="noopener noreferrer" class="contact-btn">
+            <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            github.com/0x57Origin
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+  ============================= -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; Mohammad Nazmul</span>
+      <span class="footer-dot">&middot;</span>
+      <span class="footer-domain">0x57origin.vercel.app</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
